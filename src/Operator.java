@@ -1,10 +1,9 @@
 public class Operator implements Employee {
 
+    private long fixSalary = 30000;
+
     @Override
-    public int getMonthSalary() {
-        int min = 10000;
-        int max = 30000;
-        int fixSalary = (int)(Math.random()*(max - min)) + min;
+    public long getMonthSalary(Company company) {
         return fixSalary;
     }
 }
