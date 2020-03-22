@@ -28,7 +28,13 @@ public class Main {
         System.out.println(company.getEmployees().get(1).getMonthSalary(company));
         System.out.println(company.getEmployees().get(0).getMonthSalary(company));
         System.out.println(company.getEmployees().get(3).getMonthSalary(company));
-        System.out.println(company.getTopSalaryStaff(10));
-        System.out.println(company.getLowestSalaryStaff(10));
+        System.out.println(company.getTopSalaryStaff(3));
+        for (int i = 0; i < company.getTopSalaryStaff(3).size(); i++) {
+            System.out.println(company.getTopSalaryStaff(3).get(i).getMonthSalary(company));
+        }
+        System.out.println(company.getLowestSalaryStaff(4));
+        for (int i = 0; i < company.getLowestSalaryStaff(4).size(); i++) {
+            System.out.println(company.getLowestSalaryStaff(4).get(i).getMonthSalary(company));
+        }
     }
 }
