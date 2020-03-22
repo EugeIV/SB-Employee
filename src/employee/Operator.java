@@ -1,3 +1,7 @@
+package employee;
+
+import company.Company;
+
 public class Operator implements Employee {
 
     private long fixSalary = 30000;

@@ -1,3 +1,9 @@
+import company.Company;
+import employee.Employee;
+import employee.Manager;
+import employee.Operator;
+import employee.TopManager;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -23,6 +29,6 @@ public class Main {
         System.out.println(company.getEmployees().get(0).getMonthSalary(company));
         System.out.println(company.getEmployees().get(3).getMonthSalary(company));
         System.out.println(company.getTopSalaryStaff(10));
-        System.out.println(company.getLowestSalaryStaff(3));
+        System.out.println(company.getLowestSalaryStaff(10));
     }
 }

@@ -1,3 +1,7 @@
+package employee;
+
+import company.Company;
+
 public class Manager implements Employee {
 
     private long fixSalary = 50000;

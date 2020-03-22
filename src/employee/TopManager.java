@@ -1,3 +1,7 @@
+package employee;
+
+import company.Company;
+
 public class TopManager implements Employee {
 
     private long fixSalary = 100000;
